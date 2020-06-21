@@ -20,7 +20,7 @@ Tip: to view additional details (e.g. detection confidence, inference time, etc.
 
 * Add the **[training dataset](https://drive.google.com/file/d/11WC6XPp4kHGN1vEzl_ZRnFla99pxIs33/view?usp=sharing)** and **[label_map.pbtxt](https://github.com/jonathanyin12/Food.AI/blob/master/label_map.pbtxt)** to `food_detection`.
 
-* Open `Food_detect_train.ipynb` and follow the notebook instructions.
+* Open `FoodAI_train.ipynb` and follow the notebook instructions.
 
 * To use the newly trained model, download `food_detect.tflite` from `model_checkpoints/tflite_model/` and move it to the _assets_ folder in Android Studio. It should replace the existing pretrained model.
 
