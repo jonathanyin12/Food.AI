@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.detection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:5:5-17
+8        android:minSdkVersion="21"
+8-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:5:5-17
+9        android:targetSdkVersion="29" />
+9-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:5:5-17
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:7:5-65
+11-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:7:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:9:5-60
+13-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:9:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:10:5-70
+14-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:10:19-67
+15
+16    <application
+16-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:12:5-38:19
+17        android:allowBackup="false"
+17-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:13:9-36
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\jonat\.gradle\caches\transforms-2\files-2.1\2df1ad5a3a8da31684d8a086d5d1f12c\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:14:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:15:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:16:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:17:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme.MainContent" >
+25-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:18:9-52
+26        <activity
+26-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:19:9-22:20
+27            android:name="org.tensorflow.lite.examples.detection.DetectorActivity"
+27-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:20:13-45
+28            android:theme="@style/AppTheme.ObjectDetection" >
+28-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:21:13-60
+29        </activity>
+30        <activity
+30-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:23:9-33:20
+31            android:name="org.tensorflow.lite.examples.detection.MainActivity"
+31-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:24:13-41
+32            android:label="@string/app_name"
+32-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:25:13-45
+33            android:screenOrientation="portrait"
+33-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:26:13-49
+34            android:theme="@style/AppTheme.MainContent" >
+34-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:27:13-56
+35            <intent-filter>
+35-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:28:13-32:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:29:17-69
+36-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:29:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:31:17-77
+38-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:31:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+42-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:35:9-37:57
+43            android:name="preloaded_fonts"
+43-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:36:13-43
+44            android:resource="@array/preloaded_fonts" />
+44-->C:\Users\jonat\AndroidStudioProjects\Food.AI\Food.AI\app\src\main\AndroidManifest.xml:37:13-54
+45    </application>
+46
+47</manifest>

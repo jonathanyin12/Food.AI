@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Food.AI.iml" filepath="$PROJECT_DIR$/.idea/modules/Food.AI.iml" group="Food.AI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Food.AI/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tensorflow-lite/tensorflow-lite.iml" filepath="$PROJECT_DIR$/.idea/modules/tensorflow-lite/tensorflow-lite.iml" group="Food.AI/tensorflow-lite" />
+    </modules>
+  </component>
+</project>

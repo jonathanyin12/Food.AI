@@ -1,0 +1,15 @@
+Bread: 79
+Pancake: 175
+Waffle: 218
+Bagel: 245
+Muffin: 426
+Doughnut: 195
+Apple: 95
+Orange: 45
+Banana: 105
+Grape: 62
+Hamburger: 354
+Pizza: 285
+Sandwich: 340
+Hot dog: 151
+French fries: 365
