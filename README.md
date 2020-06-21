@@ -18,9 +18,9 @@ Tip: to view additional details (e.g. detection confidence, inference time, etc.
 ## Model training
 * Create a directory in Google Drive called `food_detection`.
 
-* Add the **[training dataset](https://drive.google.com/file/d/11WC6XPp4kHGN1vEzl_ZRnFla99pxIs33/view?usp=sharing)** and **[label_map.pbtxt](https://drive.google.com/file/d/1R5KhvedYJ_7SzHGugl-Qbff0Gh9JAEjU/view?usp=sharing)** to `food_detection`.
+* Add the **[training dataset](https://drive.google.com/file/d/11WC6XPp4kHGN1vEzl_ZRnFla99pxIs33/view?usp=sharing)** and **[label_map.pbtxt](https://github.com/jonathanyin12/Food.AI/blob/master/label_map.pbtxt)** to `food_detection`.
 
-* Open `Food_detect_train.ipynb` and follow the notebook instructions.
+* Open `FoodAI_train.ipynb` and follow the notebook instructions.
 
 * To use the newly trained model, download `food_detect.tflite` from `model_checkpoints/tflite_model/` and move it to the _assets_ folder in Android Studio. It should replace the existing pretrained model.
 
@@ -32,7 +32,7 @@ Tip: to view additional details (e.g. detection confidence, inference time, etc.
 
 * Change the classes in `OIDv4_ToolKit/classes.txt` accordingly. Then, zip the `OIDv4_ToolKit` folder and upload it to `food_detection`.
 
-* Modify **[label_map.pbtxt](https://github.com/tensorflow/models/blob/master/research/object_detection/data/kitti_label_map.pbtxt)** to match the custom classes and upload it to`food_detection`.
+* Modify **[label_map.pbtxt](https://github.com/jonathanyin12/Food.AI/blob/master/label_map.pbtxt)** to match the custom classes and upload it to`food_detection`.
 
 #### Training the model
 * When generating the TFRecords, set the flags to point to the location of the dataset. 
