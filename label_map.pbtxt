@@ -1,0 +1,74 @@
+item {
+    id: 1
+    name: 'Bread'
+}
+
+item {
+    id: 2
+    name: 'Pancake'
+}
+
+item {
+    id: 3
+    name: 'Waffle'
+}
+
+item {
+    id: 4
+    name: 'Bagel'
+}
+
+item {
+    id: 5
+    name: 'Muffin'
+}
+
+item {
+    id: 6
+    name: 'Doughnut'
+}
+
+item {
+    id: 7
+    display_name: 'Hamburger'
+}
+
+item {
+    id: 8
+    display_name: 'Pizza'
+}
+
+item {
+    id: 9
+    name: 'Sandwich'
+}
+
+item {
+    id: 10
+    name: 'Hot dog'
+}
+
+item {
+    id: 11
+    name: 'French fries'
+}
+
+item {
+    id: 12
+    name: 'Apple'
+}
+
+item {
+    id: 13
+    name: 'Orange'
+}
+
+item {
+    id: 14
+    name: 'Banana'
+}
+
+item {
+    id: 15
+    name: 'Grape'
+}
