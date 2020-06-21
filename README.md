@@ -8,12 +8,12 @@ This demo app allows users to quickly obtain calorie information using their cam
 
 Note: this app was built and modified from the **[TensorFlow Lite Object Detection Android Demo](https://github.com/tensorflow/examples/tree/d0046f3f18c66634395819a50ea6bda65f8bd0ac/lite/examples/object_detection/android)**.
 
-## Overview
 
+## Usage
+To build the pretrained demo in Android Studio, select "Open an existing Android Studio project" and navigate to the Food.AI/android directory. Then, connect a device and press 'run'. 
 
+Tip: to view additional details (e.g. detection confidence, inference time, etc.) when detecting foods, press a volume key.
 
-## Building in Android Studio
-To build the pretrained demo in Android Studio, select "Open an existing Android Studio project" and navigate to the Food.AI/android directory. Then, connect a device and press 'run'.
 
 ## Model training
 * Create a directory in Google Drive called `food_detection`.
