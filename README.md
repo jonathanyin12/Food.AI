@@ -1,7 +1,7 @@
 # Food.AI
 #### Easy calorie tracking using real-time object detection on Android.
 
-<!-- TODO(b/124116863): Add app screenshot. -->
+<img src="Food.AI_demo.gif" width="300" height="660"/>
 
 ## Overview
 This demo app allows users to quickly obtain calorie information using their camera. The object detection model utilizes a **[MobileNetV2 SSD](https://github.com/tensorflow/models/tree/master/research/object_detection)** architecture that was trained using transfer learning on 15 unique food classes from the **[Open Images v4](https://storage.googleapis.com/openimages/web/factsfigures_v4.html)** dataset.
