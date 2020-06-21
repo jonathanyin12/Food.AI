@@ -10,7 +10,7 @@ Note: this app was built and modified from the **[TensorFlow Lite Object Detecti
 
 
 ## Usage
-To build the pretrained demo in Android Studio, select "Open an existing Android Studio project" and navigate to the Food.AI/android directory. Then, connect a device and press 'run'. 
+To build the pretrained demo in Android Studio, select "Open an existing Android Studio project" and navigate to the Food.AI/Food.AI directory. Then, connect a device and press 'run'. 
 
 Tip: to view additional details (e.g. detection confidence, inference time, etc.) when detecting foods, press a volume key.
 
